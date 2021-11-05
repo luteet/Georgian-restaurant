@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgian restauraunt</title>
+    <!-- <link rel="SHORTCUT ICON" href="img/logo.svg" type="image/svg"> -->
+    <link rel="stylesheet" href="css/style.min.css">
+    
+</head>
+<body>
+    <div class="offset-check-js"></div>
+    <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header__logo" title="Логотип">
+                <img src="img/logo.svg" alt="Логотип" width="133" height="100" class="header__logo--img">
+            </a>
+            <nav class="header__nav">
+                <div class="header__nav--body">
+                    <ul class="header__nav--list">
+                        <li class="header__nav--item">
+                            <a href="#" class="header__nav--link">
+                                главная
+                            </a>
+                        </li>
+                        <li class="header__nav--item">
+                            <a href="#menu-intro" class="header__nav--link btn-to-scroll">
+                                меню
+                            </a>
+                        </li>
+                        <li class="header__nav--item">
+                            <a href="#delivery-methods" class="header__nav--link btn-to-scroll">
+                                доставка
+                            </a>
+                        </li>
+                        <li class="header__nav--item">
+                            <a href="#footer" class="header__nav--link btn-to-scroll _last-section">
+                                контакты
+                            </a>
+                        </li>
+                        <li class="header__nav--item">
+                            <a href="#" class="header__nav--link">
+                                акции
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header__social">
+                <ul class="header__social--list">
+                    <li class="header__social--item">
+                        <a href="tel:+70001234567" class="header__social--link _tel">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_27:45)"><path d="M19.4347 14.678L16.6436 11.8869C15.6468 10.8901 13.9522 11.2889 13.5535 12.5847C13.2544 13.4819 12.2576 13.9803 11.3605 13.7809C9.3669 13.2825 6.67552 10.6908 6.17712 8.59746C5.87808 7.70029 6.47616 6.70349 7.37329 6.40448C8.66914 6.00576 9.06786 4.31119 8.07105 3.31438L5.27999 0.523324C4.48255 -0.174441 3.28638 -0.174441 2.58862 0.523324L0.694682 2.41726C-1.19925 4.41087 0.894043 9.69395 5.57904 14.3789C10.264 19.0639 15.5471 21.2569 17.5407 19.2633L19.4347 17.3694C20.1325 16.5719 20.1325 15.3757 19.4347 14.678Z"/></g><defs><clipPath id="clip0_27:45"><rect width="20" height="20" fill="white"/></clipPath></defs></svg>
+                            +7 (000)123 45 67
+                        </a>
+                    </li>
+                    <li class="header__social--item">
+                        <a href="#" class="header__social--link" title="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.0703 0H2.92969C1.31439 0 0 1.31439 0 2.92969V17.0703C0 18.6856 1.31439 20 2.92969 20H17.0703C18.6856 20 20 18.6856 20 17.0703V2.92969C20 1.31439 18.6856 0 17.0703 0ZM10.0391 15.2344C7.1312 15.2344 4.76562 12.8688 4.76562 9.96094C4.76562 7.05307 7.1312 4.6875 10.0391 4.6875C12.9469 4.6875 15.3125 7.05307 15.3125 9.96094C15.3125 12.8688 12.9469 15.2344 10.0391 15.2344ZM15.8984 5.85938C14.9292 5.85938 14.1406 5.0708 14.1406 4.10156C14.1406 3.13232 14.9292 2.34375 15.8984 2.34375C16.8677 2.34375 17.6562 3.13232 17.6562 4.10156C17.6562 5.0708 16.8677 5.85938 15.8984 5.85938Z"/>
+                                <path d="M15.8984 3.51562C15.5751 3.51562 15.3125 3.77823 15.3125 4.10156C15.3125 4.4249 15.5751 4.6875 15.8984 4.6875C16.2218 4.6875 16.4844 4.4249 16.4844 4.10156C16.4844 3.77823 16.2218 3.51562 15.8984 3.51562Z"/>
+                                <path d="M10.0391 5.85938C7.77771 5.85938 5.9375 7.69958 5.9375 9.96094C5.9375 12.2223 7.77771 14.0625 10.0391 14.0625C12.3004 14.0625 14.1406 12.2223 14.1406 9.96094C14.1406 7.69958 12.3004 5.85938 10.0391 5.85938Z"/>
+                            </svg>                                
+                        </a>
+                    </li>
+                    <li class="header__social--item">
+                        <a href="#" class="header__social--link" title="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.0703 0H2.92969C1.31439 0 0 1.31439 0 2.92969V17.0703C0 18.6856 1.31439 20 2.92969 20H8.82812V12.9297H6.48438V9.41406H8.82812V7.03125C8.82812 5.09262 10.4051 3.51562 12.3438 3.51562H15.8984V7.03125H12.3438V9.41406H15.8984L15.3125 12.9297H12.3438V20H17.0703C18.6856 20 20 18.6856 20 17.0703V2.92969C20 1.31439 18.6856 0 17.0703 0Z"/>
+                            </svg>                                
+                        </a>
+                    </li>
+                    <li class="header__social--item">
+                        <a href="#" class="header__social--link" title="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_13:60)"><path d="M7.4614 18.2049C6.59653 18.2049 5.70633 18.1349 4.81079 17.9945C3.23349 17.747 1.63681 16.9219 1.185 16.6749L0 16.027L1.28296 15.6051C2.68539 15.144 3.53851 14.8579 4.59457 14.4099C3.53714 13.8978 2.72217 12.9766 2.32986 11.7858L2.0314 10.8798L2.27615 10.9172C2.04407 10.6832 1.86081 10.4458 1.71875 10.2299C1.21353 9.46253 0.946045 8.52488 1.00296 7.72135L1.05911 6.93049L1.53259 7.1139C1.33286 6.7367 1.18851 6.33387 1.10367 5.91166C0.896912 4.882 1.06995 3.78809 1.59103 2.83152L2.00348 2.07438L2.55508 2.73692C4.29962 4.83256 6.50925 6.07569 9.13177 6.43961C9.02466 5.70124 9.10492 4.98866 9.37057 4.34992C9.67987 3.60621 10.2301 2.97556 10.9613 2.52604C11.7734 2.02692 12.7582 1.78507 13.7343 1.84504C14.7699 1.90867 15.7101 2.2967 16.4569 2.96793C16.8216 2.87318 17.0903 2.77201 17.4535 2.63529C17.672 2.55305 17.9198 2.45966 18.2298 2.35285L19.3724 1.95918L18.6273 4.08717C18.6765 4.08305 18.7271 4.07954 18.7801 4.07725L20.0002 4.02201L19.279 5.00758C19.2377 5.06403 19.2271 5.08006 19.2125 5.10218C19.1544 5.18977 19.082 5.29871 18.0922 6.62043C17.8444 6.95139 17.7206 7.38245 17.7437 7.83442C17.8314 9.55195 17.6207 11.1059 17.117 12.4529C16.6406 13.7274 15.9024 14.8208 14.9231 15.7029C13.7112 16.7942 12.166 17.5415 10.33 17.9235C9.42947 18.1109 8.46237 18.2049 7.4614 18.2049Z"/></g><defs><clipPath id="clip0_13:60"><rect width="20.0001" height="20" fill="white"/></clipPath></defs></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__menu-mob-btn burger" title="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header><div class="wrapper">    <section class="intro">        <div class="intro__bg">            <picture><source srcset="img/intro/image.webp" type="image/webp"><img src="img/intro/image.jpg" loading="lazy" width="500" alt="" class="intro__bg--image"></picture>        </div>        <div class="intro__container container">            <div class="intro__block">                <h1 class="intro__title main-title">                    Попробуй лучшую <span class="accent-word">грузинскую</span> кухню в Москве.                </h1>                <div class="intro__text">                    <p>                        В нашем ресторане Вы найдете лучшие блюда приготвленные по старинным рецептам грузинской кухни. Потрясающий вкус блюд перенесет Вас к атмосферу невероятного Тбилисси не выходя из дома.                    </p>                </div>                <a href="#menu-intro" class="intro__btn btn btn-to-scroll">                    ПЕРЕЙТИ К МЕНЮ                </a>            </div>        </div>    </section>    <section class="menu-intro wow" id="menu-intro" data-wow-offset="100">        <div class="decor-body">            <div class="decor-item" style="transform: translate(-25%, -25%); left: 0; top: 0;">                <picture><source srcset="img/decor/item-1.webp" type="image/webp"><img src="img/decor/item-1.png" loading="lazy" width="269" alt="" class="decor-item-img" style="width: 25vw; max-width: 269px; min-width: 142px;"></picture>            </div>            <div class="decor-item" style="transform: translate(40%, -50%) rotate(-90deg); right: 0; top: 50%;">                <picture><source srcset="img/decor/item-2.webp" type="image/webp"><img src="img/decor/item-2.png" loading="lazy" width="496" alt="" class="decor-item-img" style="width: 25vw; max-width: 496px; min-width: 300px;"></picture>            </div>            <div class="decor-item" style="transform: translate(0%, 0%); left: 0; top: 100%;">                <picture><source srcset="img/decor/item-3.webp" type="image/webp"><img src="img/decor/item-3.png" loading="lazy" width="256" alt="" class="decor-item-img" style="width: 25vw; max-width: 256px; min-width: 200px;"></picture>            </div>        </div>        <div class="menu-intro__container container _min">            <h2 class="menu-intro__title section-title title _large">                Попробуй на вкус            </h2>            <div class="menu-intro__text section-text">                <p>                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium netus urna hendrerit convallis aliquam consequat turpis.                </p>            </div>            <ul class="menu-intro__list">                <li class="menu-intro__list--item">                    <a href="#" class="menu-intro__list--item-image" title="Блюдо">                        <picture><source srcset="img/intro-menu/image-1.webp" type="image/webp"><img src="img/intro-menu/image-1.jpg" loading="lazy" width="250" alt="" class="menu-intro__list--item-img"></picture>                    </a>                    <h3 class="menu-intro__list--item-name title _min">                        Здесь будет какой то текст, возможно назване блюда                    </h3>                </li>                <li class="menu-intro__list--item">                    <a href="#" class="menu-intro__list--item-image" title="Блюдо">                        <picture><source srcset="img/intro-menu/image-2.webp" type="image/webp"><img src="img/intro-menu/image-2.jpg" loading="lazy" width="250" alt="" class="menu-intro__list--item-img"></picture>                    </a>                    <h3 class="menu-intro__list--item-name title _min">                        Здесь будет какой то текст, возможно назване блюда                    </h3>                </li>                <li class="menu-intro__list--item">                    <a href="#" class="menu-intro__list--item-image" title="Блюдо">                        <picture><source srcset="img/intro-menu/image-3.webp" type="image/webp"><img src="img/intro-menu/image-3.jpg" loading="lazy" width="250" alt="" class="menu-intro__list--item-img"></picture>                    </a>                    <h3 class="menu-intro__list--item-name title _min">                        Здесь будет какой то текст, возможно назване блюда                    </h3>                </li>            </ul>            <a href="#delivery-methods" class="menu-intro__btn btn btn-to-scroll">                Перейти к доставке            </a>        </div>    </section>    <section class="menu-slider wow" id="menu-slider">        <div class="menu-slider__container">            <div class="menu-slider__header container">                <h2 class="menu-slider__title section-title title _large">                    Меню                </h2>                <div class="menu-slider__text section-text">                    <p>                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium netus urna hendrerit convallis aliquam consequat turpis.                    </p>                </div>            </div>            <div class="menu-slider__wrapper swiper">                <div class="menu-slider__arrows container">                    <div class="menu-slider__arrow menu-slider__arrow--prev swiper-button-prev"><svg width="24" height="41" viewBox="0 0 24 41" fill="none"><path d="M0.996247 21.6687L18.7968 39.4689C19.2085 39.8809 19.758 40.1079 20.3441 40.1079C20.9301 40.1079 21.4797 39.8809 21.8914 39.4689L23.2022 38.1583C24.0552 37.3044 24.0552 35.9164 23.2022 35.0637L8.25472 20.1162L23.2188 5.15208C23.6305 4.74005 23.8578 4.19079 23.8578 3.6051C23.8578 3.01877 23.6305 2.4695 23.2188 2.05715L21.9079 0.746913C21.4959 0.334884 20.9466 0.107895 20.3606 0.107895C19.7746 0.107895 19.225 0.334884 18.8133 0.746913L0.996247 18.5634C0.583568 18.9767 0.356903 19.5286 0.358204 20.1152C0.356904 20.7042 0.583568 21.2557 0.996247 21.6687Z"/></svg></div>                    <div class="menu-slider__arrow menu-slider__arrow--next swiper-button-next"><svg width="41" height="40" viewBox="0 0 41 40" fill="none"><g clip-path="url(#clip0_17:998)"><path d="M31.22 18.44L13.42.638A2.172 2.172 0 0011.871 0c-.586 0-1.135.227-1.547.639l-1.311 1.31a2.191 2.191 0 000 3.095l14.948 14.948L8.997 34.956a2.174 2.174 0 00-.639 1.547c0 .586.228 1.135.64 1.548l1.31 1.31c.412.412.962.639 1.548.639.586 0 1.135-.227 1.547-.639L31.22 21.545c.413-.414.64-.966.638-1.552a2.175 2.175 0 00-.638-1.554z"/></g><defs><clipPath id="clip0_17:998"><path transform="translate(.108)" d="M0 0h40v40H0z"/></clipPath></defs></svg></div>                </div>                <ul class="menu-slider__list swiper-wrapper">                    <li class="menu-slider__item swiper-slide">
+    <div class="menu-slider__item--bg">
+        <picture>
+            <source srcset="img/gallery/image-1.webp" type="image/webp">
+            <img src="img/gallery/image-1.jpg" alt="" loading="lazy" class="menu-slider__item--img">
+        </picture>
+    </div>
+    <div class="menu-slider__item--body">
+        <h3 class="menu-slider__item--title title _min">
+            Супы
+        </h3>
+        <div class="menu-slider__item--link-body">
+            <a href="#menu-popup" class="menu-slider__item--link btn _alt-btn popup-btn">
+                Открыть меню
+            </a>
+        </div>
+    </div>
+</li>                    <li class="menu-slider__item swiper-slide">
+    <div class="menu-slider__item--bg">
+        <picture>
+            <source srcset="img/gallery/image-2.webp" type="image/webp">
+            <img src="img/gallery/image-2.jpg" alt="" loading="lazy" class="menu-slider__item--img">
+        </picture>
+    </div>
+    <div class="menu-slider__item--body">
+        <h3 class="menu-slider__item--title title _min">
+            Супы
+        </h3>
+        <div class="menu-slider__item--link-body">
+            <a href="#menu-popup" class="menu-slider__item--link btn _alt-btn popup-btn">
+                Открыть меню
+            </a>
+        </div>
+    </div>
+</li>                    <li class="menu-slider__item swiper-slide">
+    <div class="menu-slider__item--bg">
+        <picture>
+            <source srcset="img/gallery/image-3.webp" type="image/webp">
+            <img src="img/gallery/image-3.jpg" alt="" loading="lazy" class="menu-slider__item--img">
+        </picture>
+    </div>
+    <div class="menu-slider__item--body">
+        <h3 class="menu-slider__item--title title _min">
+            Супы
+        </h3>
+        <div class="menu-slider__item--link-body">
+            <a href="#menu-popup" class="menu-slider__item--link btn _alt-btn popup-btn">
+                Открыть меню
+            </a>
+        </div>
+    </div>
+</li>                    <li class="menu-slider__item swiper-slide">
+    <div class="menu-slider__item--bg">
+        <picture>
+            <source srcset="img/gallery/image-4.webp" type="image/webp">
+            <img src="img/gallery/image-4.jpg" alt="" loading="lazy" class="menu-slider__item--img">
+        </picture>
+    </div>
+    <div class="menu-slider__item--body">
+        <h3 class="menu-slider__item--title title _min">
+            Супы
+        </h3>
+        <div class="menu-slider__item--link-body">
+            <a href="#menu-popup" class="menu-slider__item--link btn _alt-btn popup-btn">
+                Открыть меню
+            </a>
+        </div>
+    </div>
+</li>                    <li class="menu-slider__item swiper-slide">
+    <div class="menu-slider__item--bg">
+        <picture>
+            <source srcset="img/gallery/image-5.webp" type="image/webp">
+            <img src="img/gallery/image-5.jpg" alt="" loading="lazy" class="menu-slider__item--img">
+        </picture>
+    </div>
+    <div class="menu-slider__item--body">
+        <h3 class="menu-slider__item--title title _min">
+            Супы
+        </h3>
+        <div class="menu-slider__item--link-body">
+            <a href="#menu-popup" class="menu-slider__item--link btn _alt-btn popup-btn">
+                Открыть меню
+            </a>
+        </div>
+    </div>
+</li>                    <li class="menu-slider__item swiper-slide">
+    <div class="menu-slider__item--bg">
+        <picture>
+            <source srcset="img/gallery/image-6.webp" type="image/webp">
+            <img src="img/gallery/image-6.jpg" alt="" loading="lazy" class="menu-slider__item--img">
+        </picture>
+    </div>
+    <div class="menu-slider__item--body">
+        <h3 class="menu-slider__item--title title _min">
+            Супы
+        </h3>
+        <div class="menu-slider__item--link-body">
+            <a href="#menu-popup" class="menu-slider__item--link btn _alt-btn popup-btn">
+                Открыть меню
+            </a>
+        </div>
+    </div>
+</li>                    <li class="menu-slider__item swiper-slide">
+    <div class="menu-slider__item--bg">
+        <picture>
+            <source srcset="img/gallery/image-7.webp" type="image/webp">
+            <img src="img/gallery/image-7.jpg" alt="" loading="lazy" class="menu-slider__item--img">
+        </picture>
+    </div>
+    <div class="menu-slider__item--body">
+        <h3 class="menu-slider__item--title title _min">
+            Супы
+        </h3>
+        <div class="menu-slider__item--link-body">
+            <a href="#menu-popup" class="menu-slider__item--link btn _alt-btn popup-btn">
+                Открыть меню
+            </a>
+        </div>
+    </div>
+</li>                </ul>            </div>                    </div>    </section>    <section class="delivery-methods wow" id="delivery-methods">        <div class="decor-body">            <div class="decor-item" style="transform: translate(-50%, -50%) rotate(90deg); left: 0; top: 0;">                <picture><source srcset="img/decor/item-2.webp" type="image/webp"><img src="img/decor/item-2.png" loading="lazy" width="416" alt="" class="decor-item-img" style="width: 25vw; max-width: 416px; min-width: 196px;"></picture>            </div>            <div class="decor-item" style="transform: translate(50%, -50%) rotate(-90deg); right: 0; top: 100%;">                <picture><source srcset="img/decor/item-2.webp" type="image/webp"><img src="img/decor/item-2.png" loading="lazy" width="496" alt="" class="decor-item-img" style="width: 25vw; max-width: 496px; min-width: 294px;"></picture>            </div>            <style>                .delivery-methods-decor-item-1 {                    transform: translate(-50%, -50%);                     left: 0;                    top: 80%;                }                .delivery-methods-decor-item-1 .decor-item-img {                    width: 200px;                    min-width: auto;                    max-width: auto;                }                @media(min-width: 769px) {                    .delivery-methods-decor-item-1 {                        transform: translate(50%, -50%);                         left: 0;                        top: 90%;                    }                    .delivery-methods-decor-item-1 .decor-item-img {                        width: 55px;                    }                }            </style>            <div class="decor-item delivery-methods-decor-item-1">                <picture><source srcset="img/decor/item-1.webp" type="image/webp"><img src="img/decor/item-1.png" loading="lazy" width="256" alt="" class="decor-item-img"></picture>            </div>        </div>        <div class="delivery-methods__container container">            <h2 class="delivery-methods__title section-title title _large">                Удобные способы доставки            </h2>            <div class="delivery-methods__text section-text">                <p>                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium netus urna hendrerit convallis aliquam consequat turpis.                </p>            </div>            <div class="delivery-methods__row">                <ul class="delivery-methods__list">                    <li class="delivery-methods__item">                        <div class="delivery-methods__item--logo">                            <picture><source srcset="img/delivery/logo-delivery-1.webp" type="image/webp"><img src="img/delivery/logo-delivery-1.png" alt="" loading="lazy" width="100" class="delivery-methods__item--logo-img"></picture>                        </div>                        <div class="delivery-methods__item--text">                            <p>                                Доставка при помощи наших курьеров при заказе от 2000 ₽                            </p>                        </div>                    </li>                    <li class="delivery-methods__item">                        <div class="delivery-methods__item--logo">                            <picture><source srcset="img/delivery/logo-delivery-2.webp" type="image/webp"><img src="img/delivery/logo-delivery-2.png" alt="" loading="lazy" width="100" class="delivery-methods__item--logo-img"></picture>                        </div>                        <div class="delivery-methods__item--text">                            <p>                                Доставка при помощи сервиса по доставке еды и дальше по тексту                            </p>                        </div>                    </li>                    <li class="delivery-methods__item">                        <div class="delivery-methods__item--logo">                            <picture><source srcset="img/delivery/logo-delivery-3.webp" type="image/webp"><img src="img/delivery/logo-delivery-3.png" alt="" loading="lazy" width="100" class="delivery-methods__item--logo-img"></picture>                        </div>                        <div class="delivery-methods__item--text">                            <p>                                Доставка при помощи сервиса по доставке еды и дальше по тексту                            </p>                        </div>                    </li>                </ul>                <div class="delivery-methods__image">                    <picture><source srcset="img/delivery/image.webp" type="image/webp"><img src="img/delivery/image.jpg" alt="" width="500" loading="lazy" class="delivery-methods__image--img"></picture>                </div>            </div>        </div>    </section>    <section class="gallery _pb-none wow">        <div class="gallery__container">            <div class="gallery__slider swiper">                <div class="gallery__list gallery__slider--wrapper swiper-wrapper">                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-1.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-1-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-2.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-2-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-3.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-3-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-4.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-4-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-5.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-5-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-6.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-6-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-7.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-7-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-8.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-8-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-1.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-1-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-2.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-2-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-3.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-3-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                    <div class="gallery__item swiper-slide">
+    <a href="img/gallery/image-4.jpg" class="gallery__item--image">
+        <img src="img/gallery/image-4-min.jpg" alt="" width="250" loading="lazy" class="gallery__item--preview">
+    </a>
+</div>                           </div>            </div>            <div class="gallery-pagination swiper-pagination"></div>        </div>    </section>    </div>    </div>    
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__row">
+                <a href="#" class="footer__logo footer__block">
+                    <img src="img/logo.svg" loading="lazy" width="100" alt="Логотип" class="footer__logo--img">
+                </a>
+                <div class="footer__social footer__block _center">
+                    <ul class="footer__social--list">
+                        <li class="footer__social--item">
+                            <a href="tel:+71234569998" class="footer__social--link">
+                                +7 (123) 456-99-98
+                            </a>
+                        </li>
+                        <li class="footer__social--item">
+                            <a href="#" class="footer__social--link" title="telegram">
+                                <img src="img/social-icons/telegram.svg" alt="Telegram" class="footer__social--icon">
+                            </a>
+                        </li>
+                        <li class="footer__social--item">
+                            <a href="#" class="footer__social--link" title="viber">
+                                <img src="img/social-icons/viber.svg" alt="Viber" class="footer__social--icon">
+                            </a>
+                        </li>
+                        <li class="footer__social--item">
+                            <a href="#" class="footer__social--link" title="whatsapp">
+                                <img src="img/social-icons/whatsapp.svg" alt="WhatsApp" class="footer__social--icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__address footer__block _center">
+                    <a href="#" class="footer__address--link">
+                        г. Москва, район стадиона Динамо (ныне ВТБ Арена).
+                    </a>
+                </div>
+                <div class="footer__email footer__block _end">
+                    <a href="mail" class="footer__email--link">
+                        Email: mail@mal.ru
+                    </a>
+                </div>
+            </div>
+            <div class="footer__info">
+                <a href="#" class="footer__info--link">
+                    Политика конфиденциальности
+                </a>
+                <a href="#" class="footer__info--link">
+                    Пользовательское соглашение
+                </a>
+                <span class="footer__info--copy">
+                    Динамо. Грузинское бистро. Все права защищены, 2021
+                </span>
+            </div>
+        </div>
+    </footer>
+    <!-- <a class="popup-btn" href="#menu-popup">Open modal</a> -->
+
+    <div id="menu-popup" class="menu-popup mfp-hide">
+        <div class="menu-popup__container container">
+            <div class="menu-popup__body">
+                <div class="menu-popup__header menu-popup__row">
+                    <img src="img/menu-popup/image-1.jpg" loading="lazy" width="100" alt="" class="menu-popup__img">
+                    <img src="img/menu-popup/image-2.jpg" loading="lazy" width="100" alt="" class="menu-popup__img">
+                    <img src="img/menu-popup/image-3.jpg" loading="lazy" width="100" alt="" class="menu-popup__img">
+                    <img src="img/menu-popup/image-4.jpg" loading="lazy" width="100" alt="" class="menu-popup__img">
+                </div>
+                <div class="menu-popup__content">
+                    <h2 class="menu-popup__title title _list-title">
+                        Холодные закуски
+                    </h2>
+                    <ul class="menu-popup__list">
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+                        
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+                        
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+                        <li class="menu-popup__item">
+    <div class="menu-popup__item--header">
+        <h3 class="menu-popup__item--title title">
+            Сациви из курицы
+        </h3>
+        <div class="menu-popup__item--price title">
+            390 ₽
+        </div>
+    </div>
+    <div class="menu-popup__item--min-info">
+        <span class="menu-popup__item--weight">
+            200гр.
+        </span>
+        <span class="menu-popup__item--code">
+            КБЖУ: 320/16/27/4
+        </span>
+    </div>
+    <div class="menu-popup__item--info">
+        <p>
+            Состав: кур. грудка 100г; орех грец. 60г; вода 20г; шафран 5г; уксус винный 1,5 ст.л.; масло слив. 2ст.л.; соль,перец по вкусу; хмели сунели 1ч.л.;чеснок 5г; лук репчатый 10г.
+        </p>
+    </div>
+</li>
+                    </ul>
+                </div>
+                <div class="menu-popup__footer menu-popup__row">
+                    <img src="img/menu-popup/image-5.jpg" loading="lazy" width="100" alt="" class="menu-popup__img">
+                    <img src="img/menu-popup/image-6.jpg" loading="lazy" width="100" alt="" class="menu-popup__img">
+                    <img src="img/menu-popup/image-7.jpg" loading="lazy" width="100" alt="" class="menu-popup__img">
+                    <img src="img/menu-popup/image-8.jpg" loading="lazy" width="100" alt="" class="menu-popup__img">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
